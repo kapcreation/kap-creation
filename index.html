@@ -10,5 +10,6 @@ function render(){let q=document.querySelector('#search').value.trim().toLowerCa
 document.querySelector('#filter').addEventListener('change',e=>{active=e.target.value;render()});document.querySelector('#search').addEventListener('input',render);document.querySelector('#year').textContent=new Date().getFullYear();
 // À configurer avec le numéro WhatsApp professionnel au format international sans + (ex : 262...).
 window.KAP_WHATSAPP='';
+window.KAP_INSTAGRAM='https://www.instagram.com/kapcreation974/';
 fetch('data/products.json').then(r=>{if(!r.ok)throw Error('catalogue');return r.json()}).then(d=>{all=d.products||[];render()}).catch(()=>{document.querySelector('#products').innerHTML='<div class="empty">Ouvrez ce site via un hébergement ou un serveur local pour charger le catalogue.</div>'});
 </script></body></html>
