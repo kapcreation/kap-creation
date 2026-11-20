@@ -4,7 +4,7 @@ backend:
   name: github
   repo: kapcreation/kap-creation
   branch: main
-  base_url: https://VOTRE-SERVICE-AUTH.example
+  base_url: https://kap-crea-auth.kapcreation974.workers.dev
 media_folder: "images/produits"
 public_folder: "/images/produits"
 locale: fr
