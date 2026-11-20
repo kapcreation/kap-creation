@@ -1,0 +1,41 @@
+# CONFIGURATION À TERMINER AVANT UTILISATION EN LIGNE.
+# GitHub OAuth nécessite un service d'authentification compatible.
+backend:
+  name: github
+  repo: VOTRE_COMPTE_GITHUB/VOTRE_DEPOT
+  branch: main
+  base_url: https://VOTRE-SERVICE-AUTH.example
+media_folder: "images/produits"
+public_folder: "/images/produits"
+locale: fr
+publish: true
+collections:
+  - name: "catalogue"
+    label: "Catalogue"
+    files:
+      - name: "produits"
+        label: "Produits"
+        file: "data/products.json"
+        format: "json"
+        fields:
+          - label: "Produits"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}} €"
+            fields:
+              - {label: "Identifiant unique", name: "id", widget: "string", hint: "Exemple : porte-cles-bois"}
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Prix en euros", name: "price", widget: "number", value_type: "float", min: 0}
+              - label: "Catégorie"
+                name: "category"
+                widget: "select"
+                options:
+                  - {label: "Anniversaires & événements", value: "evenements"}
+                  - {label: "Cadeaux personnalisés", value: "cadeaux"}
+                  - {label: "Décoration & maison", value: "decoration"}
+                  - {label: "Mariages & cérémonies", value: "mariages"}
+                  - {label: "Collections saisonnières", value: "saisonnier"}
+                  - {label: "Professionnels & entreprises", value: "entreprises"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Photo", name: "image", widget: "image", required: false}
+              - {label: "Visible sur le site", name: "active", widget: "boolean", default: true}

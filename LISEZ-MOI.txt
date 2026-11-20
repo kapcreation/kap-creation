@@ -1,0 +1,30 @@
+KAP CREATION — SITE VITRINE / CATALOGUE
+
+CONTENU
+- index.html : site vitrine responsive
+- data/products.json : catalogue de départ (9 produits)
+- admin/ : interface Decap CMS à connecter
+
+IMPORTANT : l'espace d'administration n'est PAS encore opérationnel en ligne.
+Il nécessite :
+1. un compte et dépôt GitHub privé ou public selon votre choix ;
+2. une publication du site (par ex. Cloudflare Pages) ;
+3. la configuration du dépôt dans admin/config.yml ;
+4. un service OAuth compatible avec Decap CMS / GitHub, correctement sécurisé ;
+5. une configuration des droits d'accès.
+
+Le site public lit data/products.json ; les modifications publiées par le CMS
+seront donc visibles automatiquement après redéploiement.
+
+WhatsApp : renseigner window.KAP_WHATSAPP dans index.html avec le numéro
+professionnel international (sans + ni espaces). Tant que ce numéro n'est
+pas renseigné, les boutons ouvrent un brouillon d'e-mail, pas WhatsApp.
+
+Les photos d'origine ne sont pas intégrées : ajouter les véritables photos
+à travers le CMS une fois celui-ci configuré. Aucun visuel produit n'a été inventé.
+
+Pour prévisualiser localement : lancer un petit serveur HTTP depuis ce dossier
+(par exemple : python -m http.server 8000), puis ouvrir http://localhost:8000
+Double-cliquer index.html peut empêcher le chargement du JSON.
+
+L'hébergement gratuit dépend des quotas et conditions des prestataires.
