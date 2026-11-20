@@ -1,1 +1,85 @@
-{"products":[{"id":"caprisun","name":"Capri-Sun personnalisé","price":2,"category":"evenements","description":"Boisson personnalisée selon le thème de votre événement.","image":"","active":true},{"id":"bulles","name":"Bulles de savon personnalisées","price":2.5,"category":"evenements","description":"Une petite attention pour vos invités.","image":"","active":true},{"id":"cornet","name":"Cornet bonbons / pop-corn","price":3,"category":"evenements","description":"Cornet personnalisé pour vos fêtes.","image":"","active":true},{"id":"mms","name":"M&M's personnalisés","price":2.8,"category":"evenements","description":"Emballage personnalisé selon votre thème.","image":"","active":true},{"id":"chocolat","name":"Mini chocolat personnalisé","price":1.2,"category":"evenements","description":"Petit chocolat avec emballage personnalisé.","image":"","active":true},{"id":"coloriage-bois","name":"Kit coloriage bois","price":5.8,"category":"evenements","description":"Kit créatif à offrir aux enfants.","image":"","active":true},{"id":"boite-coloriage","name":"Boîte de coloriage","price":2.5,"category":"evenements","description":"Une activité pour les petits invités.","image":"","active":true},{"id":"livret","name":"Livret de coloriage","price":3,"category":"evenements","description":"Livret sans crayons de couleur.","image":"","active":true},{"id":"miel","name":"Petit pot de miel personnalisé (40 g)","price":3,"category":"evenements","description":"Petit pot de miel personnalisé.","image":"","active":true}]}
+{
+  "products": [
+    {
+      "id": "caprisun",
+      "name": "Capri-Sun personnalisé",
+      "price": 2,
+      "category": "evenements",
+      "description": "Boisson personnalisée selon le thème de votre événement.",
+      "image": "/images/produits/pochettes-rouges-personnalisées-maël-3-ans.png",
+      "active": true
+    },
+    {
+      "id": "bulles",
+      "name": "Bulles de savon personnalisées",
+      "price": 2.5,
+      "category": "evenements",
+      "description": "Une petite attention pour vos invités.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "cornet",
+      "name": "Cornet bonbons / pop-corn",
+      "price": 3,
+      "category": "evenements",
+      "description": "Cornet personnalisé pour vos fêtes.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "mms",
+      "name": "M&M's personnalisés",
+      "price": 2.8,
+      "category": "evenements",
+      "description": "Emballage personnalisé selon votre thème.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "chocolat",
+      "name": "Mini chocolat personnalisé",
+      "price": 1.2,
+      "category": "evenements",
+      "description": "Petit chocolat avec emballage personnalisé.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "coloriage-bois",
+      "name": "Kit coloriage bois",
+      "price": 5.8,
+      "category": "evenements",
+      "description": "Kit créatif à offrir aux enfants.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "boite-coloriage",
+      "name": "Boîte de coloriage",
+      "price": 2.5,
+      "category": "evenements",
+      "description": "Une activité pour les petits invités.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "livret",
+      "name": "Livret de coloriage",
+      "price": 3,
+      "category": "evenements",
+      "description": "Livret sans crayons de couleur.",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "miel",
+      "name": "Petit pot de miel personnalisé (40 g)",
+      "price": 3,
+      "category": "evenements",
+      "description": "Petit pot de miel personnalisé.",
+      "image": "",
+      "active": true
+    }
+  ]
+}
