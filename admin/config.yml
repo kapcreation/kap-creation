@@ -2,7 +2,7 @@
 # GitHub OAuth nécessite un service d'authentification compatible.
 backend:
   name: github
-  repo: VOTRE_COMPTE_GITHUB/VOTRE_DEPOT
+  repo: kapcreation/kap-creation
   branch: main
   base_url: https://VOTRE-SERVICE-AUTH.example
 media_folder: "images/produits"
