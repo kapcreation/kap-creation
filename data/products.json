@@ -20,11 +20,11 @@
     },
     {
       "id": "cornet",
-      "name": "Cornet bonbons / pop-corn",
+      "name": "Cornet Friandises",
       "price": 3,
       "category": "evenements",
       "description": "Cornet personnalisé pour vos fêtes.",
-      "image": "",
+      "image": "/images/produits/sachet-de-popcorn-anniversaire-personnalisé.png",
       "active": true
     },
     {
